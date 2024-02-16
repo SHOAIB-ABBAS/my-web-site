@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="creat an account.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <h1>Welcome To My Website</h1>
+        <p class="para">Already Have An Account? <a href="../login account/index.html" class="Login">Login Now</a></p>
+        <form action="#">
+            <label for="referrer">Referrer:</label>
+            <input type="text" id="referrer" name="referrer" required>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mobile">Mobile:</label>
+            <input type="text" id="mobile" name="mobile" required>
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="" disabled selected>Select your country</option>
+                <option value="pak">Pakistan</option>
+                <option value="ind">India</option>
+                
+                <!-- Add more options as needed -->
+            </select>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <span class="password-strength" id="password-strength"></span>
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I have read and agree to the Terms and Conditions</label>
+            <input type="submit" value="Create an Account">
+        </form>
+    </div>
+
+    
+
+<script src="myscripts.js"></script>
+</body>
+</html>

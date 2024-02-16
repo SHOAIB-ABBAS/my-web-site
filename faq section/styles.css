@@ -1,0 +1,239 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+  }
+  :root {
+    --maincolor: #ff4112;
+}
+
+@font-face {
+    font-family: forpara;
+    src: url(../fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: forheading;
+    src: url(../fonts/PermanentMarker-Regular.ttf);
+}
+.maincontenur {
+    height: 700px;
+    width: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+
+}
+nav {
+    width: 100vw;
+    background-color:var(--maincolor);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+
+}
+
+
+nav img {
+    float: left;
+    height: 50px;
+    /* Adjust the height as needed */
+    padding: 10px;
+    margin-right: 400px;
+}
+
+section {
+  /* background-color: #00000025; */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.mainheading {
+    color: #000000;
+    font-family: forheading;
+    font-size: 50px;
+    text-align: center;
+}
+
+.mainpara {
+  color: #000000;
+  font-family: formainpara;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
+.start{
+padding: 10px 20px;
+  font-size: 16px;
+  background-color: var(--maincolor);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-top: 50px;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.start:hover{
+background-color: #ffffff;
+  color: black;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.Choose{
+padding: 10px 20px;
+  font-size: 16px;
+  background-color: var(--maincolor);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-top: 50px;
+  border: 1px solid black;
+  text-decoration: none;
+
+}
+
+.Choose:hover {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 20px;
+  text-decoration: none;
+}
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+.language-selector {
+    float: right;
+    padding: 15px;
+}
+
+.register-btn,
+.login-btn {
+    float: right;
+    display: block;
+    color: white;
+    background-color: var(--maincolor);
+    /* Green color, you can change it */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 10px;
+    border: 2px solid white;
+
+    border-radius: 10px;
+}
+
+.register-btn:hover,
+.login-btn:hover {
+    background-color: #ffffff;
+    /* Darker green color, you can change it */
+    border-radius: 20px;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+.faq-container h2 {
+    color: var(--maincolor);
+    font-size: 50px;
+    margin-bottom: 70px;
+    
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.answer {
+    font-size: 16px;
+    color: #000000;
+    margin-top: 5px;
+}
+footer {
+    background-color: var(--maincolor);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .Facebook{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+  }
+  .Facebook:hover{
+  transform: scale(2.1);
+}
+  footer p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  footer .social-icons {
+    margin-bottom: 20px;
+  }
+
+  footer .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  footer .social-icons a:hover {
+    color: #ffc107;
+  }
